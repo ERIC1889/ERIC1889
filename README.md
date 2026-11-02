@@ -1,6 +1,6 @@
 # 허준영
 
-**백엔드 중심 풀스택 개발자** · 주식회사 Finz Labs CTO · 한신대학교 소프트웨어전공 (2027년 2월 졸업 예정)
+**백엔드 중심 풀스택 개발자** · 주식회사 Finz Labs · 한신대학교 소프트웨어전공 (2027년 2월 졸업 예정)
 
 익숙한 기술에 머물기보다, 필요한 것을 직접 만들어 왔습니다.
 
@@ -10,15 +10,51 @@
 
 ## 기술 스택
 
-| 카테고리 | 기술 스택 |
-|---|---|
-| **Languages** | <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-3F3F46?style=flat-square&logo=javascript&logoColor=white" height="24" /> <img alt="Python" src="https://img.shields.io/badge/Python-3F3F46?style=flat-square&logo=python&logoColor=white" height="24" /> <img alt="SQL" src="https://img.shields.io/badge/SQL-3F3F46?style=flat-square" height="24" /> <img alt="HTML" src="https://img.shields.io/badge/HTML-3F3F46?style=flat-square&logo=html5&logoColor=white" height="24" /> <img alt="CSS" src="https://img.shields.io/badge/CSS-3F3F46?style=flat-square&logo=css&logoColor=white" height="24" /> |
-| **Backend** | <img alt="Node.js" src="https://img.shields.io/badge/Node.js-3F3F46?style=flat-square&logo=nodedotjs&logoColor=white" height="24" /> <img alt="Express.js" src="https://img.shields.io/badge/Express.js-3F3F46?style=flat-square&logo=express&logoColor=white" height="24" /> <img alt="REST API" src="https://img.shields.io/badge/REST_API-3F3F46?style=flat-square" height="24" /> <img alt="WebSocket" src="https://img.shields.io/badge/WebSocket-3F3F46?style=flat-square" height="24" /> |
-| **Frontend &amp; Mobile** | <img alt="React Native" src="https://img.shields.io/badge/React_Native-3F3F46?style=flat-square&logo=react&logoColor=white" height="24" /> |
-| **Database** | <img alt="MySQL" src="https://img.shields.io/badge/MySQL-3F3F46?style=flat-square&logo=mysql&logoColor=white" height="24" /> <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-3F3F46?style=flat-square&logo=mongodb&logoColor=white" height="24" /> |
-| **AI &amp; Data** | <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-3F3F46?style=flat-square&logo=openai&logoColor=white" height="24" /> <img alt="MCP" src="https://img.shields.io/badge/MCP-3F3F46?style=flat-square&logo=modelcontextprotocol&logoColor=white" height="24" /> <img alt="Whisper" src="https://img.shields.io/badge/Whisper-3F3F46?style=flat-square" height="24" /> <img alt="AssemblyAI" src="https://img.shields.io/badge/AssemblyAI-3F3F46?style=flat-square" height="24" /> <img alt="Pandas" src="https://img.shields.io/badge/Pandas-3F3F46?style=flat-square&logo=pandas&logoColor=white" height="24" /> <img alt="Scikit-learn" src="https://img.shields.io/badge/Scikit--learn-3F3F46?style=flat-square&logo=scikitlearn&logoColor=white" height="24" /> <img alt="LightGBM" src="https://img.shields.io/badge/LightGBM-3F3F46?style=flat-square" height="24" /> <img alt="TensorFlow.js" src="https://img.shields.io/badge/TensorFlow.js-3F3F46?style=flat-square&logo=tensorflow&logoColor=white" height="24" /> |
-| **Infrastructure** | <img alt="AWS" src="https://img.shields.io/badge/AWS-3F3F46?style=flat-square" height="24" /> <img alt="Docker" src="https://img.shields.io/badge/Docker-3F3F46?style=flat-square&logo=docker&logoColor=white" height="24" /> |
-| **Tools** | <img alt="Git" src="https://img.shields.io/badge/Git-3F3F46?style=flat-square&logo=git&logoColor=white" height="24" /> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-3F3F46?style=flat-square&logo=github&logoColor=white" height="24" /> <img alt="Postman" src="https://img.shields.io/badge/Postman-3F3F46?style=flat-square&logo=postman&logoColor=white" height="24" /> |
+<table>
+<tr><th align="left">Frontend</th><th align="left">Tools</th><th align="left">Backend</th><th align="left">Database</th></tr>
+<tr>
+<td valign="top"><img src="assets/icons/html.svg" width="20" height="20" align="top" alt=""> HTML<br>
+<img src="assets/icons/css.svg" width="20" height="20" align="top" alt=""> CSS<br>
+<img src="assets/icons/react.svg" width="20" height="20" align="top" alt=""> React<br>
+<img src="assets/icons/bootstrap.svg" width="20" height="20" align="top" alt=""> Bootstrap<br>
+<img src="assets/icons/javascript.svg" width="20" height="20" align="top" alt=""> JavaScript<br>
+<img src="assets/icons/vue.svg" width="20" height="20" align="top" alt=""> Vue<br>
+<img src="assets/icons/vite.svg" width="20" height="20" align="top" alt=""> Vite<br>
+<img src="assets/icons/nextjs.svg" width="20" height="20" align="top" alt=""> Next.js</td>
+<td valign="top"><img src="assets/icons/notion.svg" width="20" height="20" align="top" alt=""> Notion<br><sub>템플릿 제작, 데이터베이스 활용, 프로젝트 운용</sub><br>
+<img src="assets/icons/figma.svg" width="20" height="20" align="top" alt=""> Figma<br><sub>디자인 협업, 웹페이지 디자인</sub><br>
+<img src="assets/icons/git.svg" width="20" height="20" align="top" alt=""> Git<br>
+<img src="assets/icons/cursor.svg" width="20" height="20" align="top" alt=""> Cursor</td>
+<td valign="top"><img src="assets/icons/nodejs.svg" width="20" height="20" align="top" alt=""> Node.js<br>
+<img src="assets/icons/flask.svg" width="20" height="20" align="top" alt=""> Flask<br>
+<img src="assets/icons/express.svg" width="20" height="20" align="top" alt=""> Express<br>
+<img src="assets/icons/linux.svg" width="20" height="20" align="top" alt=""> Linux<br>
+<img src="assets/icons/typescript.svg" width="20" height="20" align="top" alt=""> TypeScript<br>
+<img src="assets/icons/fastapi.svg" width="20" height="20" align="top" alt=""> FastAPI</td>
+<td valign="top"><img src="assets/icons/postgresql.svg" width="20" height="20" align="top" alt=""> PostgreSQL<br>
+<img src="assets/icons/mysql.svg" width="20" height="20" align="top" alt=""> MySQL<br>
+<img src="assets/icons/redis.svg" width="20" height="20" align="top" alt=""> Redis<br>
+<img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB<br>
+<img src="assets/icons/orange3.svg" width="20" height="20" align="top" alt=""> Orange3<br>
+<img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB Atlas</td>
+</tr>
+<tr><th align="left" colspan="2">AI</th><th align="left">Programming</th><th align="left">Cloud</th></tr>
+<tr>
+<td valign="top"><img src="assets/icons/pytorch.svg" width="20" height="20" align="top" alt=""> PyTorch<br>
+<img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
+<img src="assets/icons/ollama.svg" width="20" height="20" align="top" alt=""> Ollama<br>
+<img src="assets/icons/chatgpt.svg" width="20" height="20" align="top" alt=""> ChatGPT</td>
+<td valign="top"><img src="assets/icons/gemini.svg" width="20" height="20" align="top" alt=""> Gemini<br>
+<img src="assets/icons/claude.svg" width="20" height="20" align="top" alt=""> Claude<br>
+<img src="assets/icons/prophet.svg" width="20" height="20" align="top" alt=""> Prophet<br>
+<img src="assets/icons/lightgbm.svg" width="20" height="20" align="top" alt=""> LightGBM</td>
+<td valign="top"><img src="assets/icons/python.svg" width="20" height="20" align="top" alt=""> Python<br>
+<img src="assets/icons/c.svg" width="20" height="20" align="top" alt=""> C<br>
+<img src="assets/icons/java.svg" width="20" height="20" align="top" alt=""> Java</td>
+<td valign="top"><img src="assets/icons/aws.svg" width="20" height="20" align="top" alt=""> AWS<br>
+<img src="assets/icons/cloudflare.svg" width="20" height="20" align="top" alt=""> Cloudflare</td>
+</tr>
+</table>
 
 ## 대표 프로젝트
 
