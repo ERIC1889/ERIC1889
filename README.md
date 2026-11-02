@@ -24,18 +24,15 @@
 <td valign="top"><img src="assets/icons/notion.svg" width="20" height="20" align="top" alt=""> Notion<br><sub>템플릿 제작, 데이터베이스 활용, 프로젝트 운용</sub><br>
 <img src="assets/icons/figma.svg" width="20" height="20" align="top" alt=""> Figma<br><sub>디자인 협업, 웹페이지 디자인</sub><br>
 <img src="assets/icons/git.svg" width="20" height="20" align="top" alt=""> Git<br>
-<img src="assets/icons/cursor.svg" width="20" height="20" align="top" alt=""> Cursor</td>
 <td valign="top"><img src="assets/icons/nodejs.svg" width="20" height="20" align="top" alt=""> Node.js<br>
 <img src="assets/icons/flask.svg" width="20" height="20" align="top" alt=""> Flask<br>
 <img src="assets/icons/express.svg" width="20" height="20" align="top" alt=""> Express<br>
-<img src="assets/icons/linux.svg" width="20" height="20" align="top" alt=""> Linux<br>
 <img src="assets/icons/typescript.svg" width="20" height="20" align="top" alt=""> TypeScript<br>
 <img src="assets/icons/fastapi.svg" width="20" height="20" align="top" alt=""> FastAPI</td>
 <td valign="top"><img src="assets/icons/postgresql.svg" width="20" height="20" align="top" alt=""> PostgreSQL<br>
 <img src="assets/icons/mysql.svg" width="20" height="20" align="top" alt=""> MySQL<br>
 <img src="assets/icons/redis.svg" width="20" height="20" align="top" alt=""> Redis<br>
 <img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB<br>
-<img src="assets/icons/orange3.svg" width="20" height="20" align="top" alt=""> Orange3<br>
 <img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB Atlas</td>
 </tr>
 <tr><th align="left" colspan="2">AI</th><th align="left">Programming</th><th align="left">Cloud</th></tr>
@@ -46,8 +43,6 @@
 <img src="assets/icons/chatgpt.svg" width="20" height="20" align="top" alt=""> ChatGPT</td>
 <td valign="top"><img src="assets/icons/gemini.svg" width="20" height="20" align="top" alt=""> Gemini<br>
 <img src="assets/icons/claude.svg" width="20" height="20" align="top" alt=""> Claude<br>
-<img src="assets/icons/prophet.svg" width="20" height="20" align="top" alt=""> Prophet<br>
-<img src="assets/icons/lightgbm.svg" width="20" height="20" align="top" alt=""> LightGBM</td>
 <td valign="top"><img src="assets/icons/python.svg" width="20" height="20" align="top" alt=""> Python<br>
 <img src="assets/icons/c.svg" width="20" height="20" align="top" alt=""> C<br>
 <img src="assets/icons/java.svg" width="20" height="20" align="top" alt=""> Java</td>
