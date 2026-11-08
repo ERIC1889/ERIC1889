@@ -1,10 +1,12 @@
 # 허준영
 
-**백엔드 중심 풀스택 개발자** · 주식회사 Finz Labs · 한신대학교 소프트웨어전공 (2027년 2월 졸업 예정)
+**백엔드 중심 풀스택 개발자** · 주식회사 Finz Labs 개발 총괄 · 한신대학교 소프트웨어전공 (2027년 2월 졸업 예정)
 
-익숙한 기술에 머물기보다, 필요한 것을 직접 만들어 왔습니다.
+**문제를 이해하는 것에서 시작해, 신뢰할 수 있는 결과로 완성합니다.**
 
-직원 5명 회사에서 세금 계산 서비스 [finz.kr](https://www.finz.kr)을 설계·개발·운영합니다. 웹과 API를 만들고, 외부 데이터 연동과 계산 결과 검증을 맡아 왔습니다. 지금까지 프로젝트 18개를 진행했고, 학술대회 논문 7편(국제 1편, 1저자 3편)을 썼으며, 13건을 수상했습니다.
+사용자의 요구를 기술적 해결책으로 구체화하고, 이를 실제 작동하는 서비스로 구현해 왔습니다. 프론트엔드부터 백엔드, AI 기능 적용까지 제품 개발의 여러 단계를 경험하며, 기능의 구현뿐 아니라 그 과정의 합리성과 결과의 완성도를 중요하게 생각합니다.
+
+직원 5명 회사에서 세금 계산 서비스 [finz.kr](https://www.finz.kr)을 설계·개발·운영합니다. 지금까지 프로젝트 18개를 진행했고, 학술대회 논문 7편(국제 1편, 1저자 6편)을 썼으며, 13건을 수상했습니다.
 
 <a href="https://junyoung-portfolio.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-18181B?style=flat-square" height="24" /></a> <a href="https://www.finz.kr"><img alt="finz.kr" src="https://img.shields.io/badge/finz.kr-18181B?style=flat-square" height="24" /></a> <a href="https://junyoung-dev-notes.vercel.app"><img alt="Tech Blog" src="https://img.shields.io/badge/Tech_Blog-18181B?style=flat-square" height="24" /></a>
 
@@ -55,20 +57,20 @@
 
 ### [Finz 개인 세금 계산기](https://junyoung-portfolio.vercel.app/projects/finz)
 부동산 6Way 비교, 디지털 자산 세금, 해외주식 양도세·증여 평가를 회원가입 없이 계산하고 세법 조문 근거를 함께 보여 주는 웹 서비스입니다. **finz.kr에서 운영 중입니다.**
-- 기준 사례 21개 항목을 ±10원 허용 범위에서 대조해 모두 통과(최대 차이 1원), 웹 저장소 테스트 184개 통과
+- 기준 사례 21개 항목을 ±10원 허용 범위에서 대조해 모두 통과(최대 차이 1원), 웹 저장소 테스트 192개 통과
 - 시세·환율 API가 실패하면 대체 출처로 조회하고, 확정된 값만 오래 캐시
 - 수상: 2026 AI-SW중심대학 AI·블록체인 비즈니스모델 경진대회 우수상 (Finz 앱)
 
 ### [SkillPilot 자격증·커리어 플랫폼](https://junyoung-portfolio.vercel.app/projects/skillpilot) · [코드](https://github.com/ERIC1889/SkillPilot)
-자격증 추천, 학습 로드맵, CBT 모의고사, 모의 면접까지 IT 취업 준비를 한곳에서 돕는 웹 서비스입니다. 4인 캡스톤에서 팀장과 백엔드 전체를 맡았습니다.
+자격증 추천, 학습 로드맵, CBT 모의고사, 모의 면접까지 IT 취업 준비를 한곳에서 돕는 웹 서비스입니다. 4인 캡스톤에서 팀장과 백엔드 전체, 프론트엔드 개편을 맡았습니다.
 - 공공 API 7종을 내부 구조로 정규화하고 node-cron으로 자동 동기화
 - HTTP 200 속의 오류 문구를 실패로 판정해 재시도, AI 호출 실패 시 규칙 기반 추천으로 대체
 
 ### [Pitches 발표 코칭](https://junyoung-portfolio.vercel.app/projects/pitches)
 발표 중 말 속도, 감정, 음량을 색으로 바로 알려 주고, 끝나면 AI 코칭 보고서를 만드는 모바일 서비스입니다. 팀 프로젝트로 시작해 2026년에 혼자 다시 설계했습니다.
 - 논문 측정 기준 지연 평균 125ms, 20세션 최악 170ms (SenseVoice-Small, 추론·네트워크·화면 표시 포함)
-- 2026 버전은 Whisper, LLM, PDF 생성을 BullMQ 워커로 분리해 실시간 경로를 보호 (iOS 시뮬레이터 시연, 실기기 확인 전)
-- 수상·논문: 캡스톤 디자인 및 AI 해커톤 대상(1등), SW 중심 대학 AI 창업 아이디어 경진대회 특별상, APIC-IST 2025 (2저자)
+- 2026 버전은 Whisper, LLM, PDF 생성을 BullMQ 워커로 분리해 실시간 경로를 보호 (iOS 시뮬레이터 시연)
+- 수상·논문: 캡스톤 디자인 및 AI 해커톤 대상(1등), SW중심대학 AI 창업 아이디어 경진대회 특별상, APIC-IST 2025 (2저자)
 
 ### [ClosetMate 옷장·코디 추천 앱](https://junyoung-portfolio.vercel.app/projects/closetmate)
 옷 사진을 분류해 옷장에 넣고, 가진 옷으로만 코디를 추천하는 모바일 앱입니다. 기획부터 모델 학습, 서버 API, 앱까지 혼자 만들었습니다.
@@ -77,7 +79,7 @@
 
 ## 다른 프로젝트
 
-- **[EduMatrix](https://junyoung-portfolio.vercel.app/projects/edumatrix)**: 목표, 노트, 퀴즈, 피드백, 계획 조정을 잇는 AI 학습 지원 시스템의 구상과 설계 (4인 캡스톤, 논문 2편)
+- **[EduMatrix](https://junyoung-portfolio.vercel.app/projects/edumatrix)**: 목표, 노트, 퀴즈, 피드백, 계획 조정을 잇는 AI 학습 지원 시스템의 구상과 설계 (4인 캡스톤, 1저자 논문 2편)
 - **[InnoView](https://junyoung-portfolio.vercel.app/projects/innoview)**: 이력서와 직무에 맞춰 질문하고 음성·텍스트·영상으로 답변을 분석하는 모의 면접 서비스
 - **[Label Light](https://junyoung-portfolio.vercel.app/projects/label-light)**: 일상 대화 속에서 노인 우울 척도(GDS) 문항을 끌어내는 음성 챗봇 (1저자 논문)
 
@@ -90,8 +92,14 @@
 | 2026 | AI-SW중심대학 AI·블록체인 비즈니스모델 경진대회 우수상 | Finz |
 | 2025 | 한신 AISW 페스티벌 캡스톤 디자인 부문 특별상 | EduMatrix |
 | 2025 | 한국디지털콘텐츠학회 하계·추계 대학생 논문 경진대회 은상 | EduMatrix |
-| 2025 | SW 중심 대학 AI 창업 아이디어 경진대회 특별상 | Pitches |
-| 2024 | 한신 AISW 페스티벌 일반부 특별상 | Label Light |
+| 2025 | SW중심대학 AI 창업 아이디어 경진대회 특별상 | Pitches |
+| 2024 | 한신 AISW 페스티벌 일반 부문 특별상 | Label Light |
 | 2024 | 캡스톤 디자인 및 AI 해커톤 대상(1등) | Pitches |
 
-[수상 13건과 논문 전체 보기](https://junyoung-portfolio.vercel.app/archive)
+## 주요 활동
+
+- **WebDB 랩장** (2025.01–2026.07): 학부 연구실 운영 총괄, 프로젝트 기획·관리
+- **SW 인재 페스티벌** (2024.12): 학교 대표로 부스 운영과 작품 출품
+- **CES 2026 참관** (2026.01): 한신대 학생 대표로 라스베이거스 세계 전자제품 박람회 참관
+
+[수상 13건과 논문·활동 전체 보기](https://junyoung-portfolio.vercel.app/archive)
