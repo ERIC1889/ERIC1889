@@ -33,13 +33,11 @@
 <img src="assets/icons/fastapi.svg" width="20" height="20" align="top" alt=""> FastAPI</td>
 <td valign="top"><img src="assets/icons/postgresql.svg" width="20" height="20" align="top" alt=""> PostgreSQL<br>
 <img src="assets/icons/mysql.svg" width="20" height="20" align="top" alt=""> MySQL<br>
-<img src="assets/icons/redis.svg" width="20" height="20" align="top" alt=""> Redis<br>
 <img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB<br>
 <img src="assets/icons/mongodb.svg" width="20" height="20" align="top" alt=""> MongoDB Atlas</td>
 </tr>
 <tr><th align="left" colspan="2">AI</th><th align="left">Programming</th><th align="left">Cloud</th></tr>
 <tr>
-<td valign="top"><img src="assets/icons/pytorch.svg" width="20" height="20" align="top" alt=""> PyTorch<br>
 <img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
 <img src="assets/icons/ollama.svg" width="20" height="20" align="top" alt=""> Ollama<br>
 <img src="assets/icons/chatgpt.svg" width="20" height="20" align="top" alt=""> ChatGPT</td>
@@ -47,7 +45,6 @@
 <img src="assets/icons/claude.svg" width="20" height="20" align="top" alt=""> Claude<br>
 <td valign="top"><img src="assets/icons/python.svg" width="20" height="20" align="top" alt=""> Python<br>
 <img src="assets/icons/c.svg" width="20" height="20" align="top" alt=""> C<br>
-<img src="assets/icons/java.svg" width="20" height="20" align="top" alt=""> Java</td>
 <td valign="top"><img src="assets/icons/aws.svg" width="20" height="20" align="top" alt=""> AWS<br>
 <img src="assets/icons/cloudflare.svg" width="20" height="20" align="top" alt=""> Cloudflare</td>
 </tr>
