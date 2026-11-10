@@ -38,7 +38,8 @@
 </tr>
 <tr><th align="left" colspan="2">AI</th><th align="left">Programming</th><th align="left">Cloud</th></tr>
 <tr>
-<td valign="top"><img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
+<td valign="top"><img src="assets/icons/pytorch.svg" width="20" height="20" align="top" alt=""> PyTorch<br>
+<img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
 <img src="assets/icons/ollama.svg" width="20" height="20" align="top" alt=""> Ollama<br>
 <img src="assets/icons/chatgpt.svg" width="20" height="20" align="top" alt=""> ChatGPT</td>
 <td valign="top"><img src="assets/icons/gemini.svg" width="20" height="20" align="top" alt=""> Gemini<br>
