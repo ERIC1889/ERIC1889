@@ -25,7 +25,7 @@
 <img src="assets/icons/nextjs.svg" width="20" height="20" align="top" alt=""> Next.js</td>
 <td valign="top"><img src="assets/icons/notion.svg" width="20" height="20" align="top" alt=""> Notion<br><sub>템플릿 제작, 데이터베이스 활용, 프로젝트 운용</sub><br>
 <img src="assets/icons/figma.svg" width="20" height="20" align="top" alt=""> Figma<br><sub>디자인 협업, 웹페이지 디자인</sub><br>
-<img src="assets/icons/git.svg" width="20" height="20" align="top" alt=""> Git<br>
+<img src="assets/icons/git.svg" width="20" height="20" align="top" alt=""> Git</td>
 <td valign="top"><img src="assets/icons/nodejs.svg" width="20" height="20" align="top" alt=""> Node.js<br>
 <img src="assets/icons/flask.svg" width="20" height="20" align="top" alt=""> Flask<br>
 <img src="assets/icons/express.svg" width="20" height="20" align="top" alt=""> Express<br>
@@ -38,13 +38,13 @@
 </tr>
 <tr><th align="left" colspan="2">AI</th><th align="left">Programming</th><th align="left">Cloud</th></tr>
 <tr>
-<img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
+<td valign="top"><img src="assets/icons/tensorflow.svg" width="20" height="20" align="top" alt=""> TensorFlow<br>
 <img src="assets/icons/ollama.svg" width="20" height="20" align="top" alt=""> Ollama<br>
 <img src="assets/icons/chatgpt.svg" width="20" height="20" align="top" alt=""> ChatGPT</td>
 <td valign="top"><img src="assets/icons/gemini.svg" width="20" height="20" align="top" alt=""> Gemini<br>
-<img src="assets/icons/claude.svg" width="20" height="20" align="top" alt=""> Claude<br>
+<img src="assets/icons/claude.svg" width="20" height="20" align="top" alt=""> Claude</td>
 <td valign="top"><img src="assets/icons/python.svg" width="20" height="20" align="top" alt=""> Python<br>
-<img src="assets/icons/c.svg" width="20" height="20" align="top" alt=""> C<br>
+<img src="assets/icons/c.svg" width="20" height="20" align="top" alt=""> C</td>
 <td valign="top"><img src="assets/icons/aws.svg" width="20" height="20" align="top" alt=""> AWS<br>
 <img src="assets/icons/cloudflare.svg" width="20" height="20" align="top" alt=""> Cloudflare</td>
 </tr>
