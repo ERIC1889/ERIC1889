@@ -62,21 +62,21 @@
 ## 대표 프로젝트
 
 ### [SkillPilot 자격증·커리어 플랫폼](https://junyoung-portfolio.vercel.app/projects/skillpilot) · [코드](https://github.com/ERIC1889/SkillPilot)
-흩어져 있는 자격증 추천, 학습 로드맵, CBT 모의고사, 모의 면접을 한곳에 모은 모바일/웹 호환 IT 커리어 올인원 플랫폼입니다. 4인 캡스톤에서 팀장과 백엔드 전체, 프론트엔드 개편을 맡았습니다.
-- 공공 API 7종을 내부 구조로 정규화하고 node-cron으로 자동 동기화
-- HTTP 200 속의 오류 문구를 실패로 판정해 재시도, XML·JSON 응답을 하나의 구조로 정규화, AI 호출 실패 시 규칙 기반 추천으로 대체
-- React 19 · Node.js Express · MySQL + MongoDB 하이브리드 저장
+흩어져 있는 자격증 추천, 학습 로드맵, CBT 모의고사, 모의 면접을 한곳에 모은 모바일/웹 호환 IT 커리어 올인원 플랫폼입니다. 4인 캡스톤에서 팀장과 백엔드 전체, 프론트엔드 개편을 맡았고, 13개 화면 · 16개 라우트 모듈로 마쳤습니다.
+- 흩어진 IT 자격증 정보를 한곳에서 늘 최신으로 볼 수 있게 공공 API 7종을 하나의 자격증 데이터로 정규화하고 스케줄러가 자동 갱신 (전체 613종목 중 IT 34종목 · 시험 일정 87건)
+- API마다 다른 응답 형식과 상태 코드에 드러나지 않는 실패는 공통 클라이언트 1개 + API별 정규화 함수 7개로 처리(단위 테스트 31개), AI 호출이 실패해도 규칙 기반 추천·로드맵으로 온보딩이 끊기지 않음
+- 브라우저 → Express API → MySQL(계정·목표·자격증) · MongoDB(시험 결과·로드맵·면접 대화), 로컬·Docker 실행. 저장소는 읽고 쓰는 단위로 나눴고, 돌아보면 MySQL 하나로 시작했을 구조
 
-### [Pitches 발표 코칭](https://junyoung-portfolio.vercel.app/projects/pitches)
+### [Pitches 발표 코칭](https://junyoung-portfolio.vercel.app/projects/pitches) · [코드](https://github.com/ERIC1889/pitches)
 발표 중 말 속도, 감정, 음량을 색으로 바로 알려 주고, 끝나면 AI 코칭 보고서를 만드는 모바일 서비스입니다. 팀 프로젝트로 시작해 2026년에 혼자 다시 설계했습니다.
-- 논문 측정 기준 지연 평균 125ms, 20세션 최악 170ms (SenseVoice-Small, 추론·네트워크·화면 표시 포함)
+- 발표가 끝난 뒤가 아니라 발표 중에 알 수 있도록 5초 단위로 분석해 색으로 표시. 음성→지표 지연 평균 125ms, 동시 20세션 최악 170ms (2024–25 팀 버전, 논문 측정); 사용자 조사 5명 모두 말 속도 교정에 도움
 - 2026 리뉴얼(혼자): Expo 앱이 음성을 스트리밍하면 Fastify·Socket.IO 서버가 5초 단위로 음량·말 속도·간투사·감정을 판정하고, 전체 전사·gpt-5-nano 보고서·PDF 생성은 BullMQ 워커에서 비동기 처리 (iOS 시뮬레이터 시연, API 단위 테스트 41개)
 - 수상·논문: 캡스톤 디자인 및 AI 해커톤 대상(1등), SW중심대학 AI 창업 아이디어 경진대회 특별상, APIC-IST 2025 (2저자)
 
-### [ClosetMate 옷장·코디 추천 앱](https://junyoung-portfolio.vercel.app/projects/closetmate)
+### [ClosetMate 옷장·코디 추천 앱](https://junyoung-portfolio.vercel.app/projects/closetmate) · [코드](https://github.com/ERIC1889/ClosetMate)
 옷 사진을 분류해 옷장에 넣고, 가진 옷으로만 코디를 추천하는 모바일 앱입니다. 기획부터 모델 학습, 서버 API, 앱까지 혼자 만들었습니다.
-- LLM은 규칙으로 만든 후보 중에서만 고르고, 서버가 형식·옷 ID·후보 조합을 검증한 뒤 실패하면 보조 모델로 재요청 (실측 23회: 기본 모델 19회 통과 · 보조 모델 4회 · 최종 실패 0건)
-- MobileNetV3-Small과 ResNet50 전이학습을 같은 조건으로 비교해 약 15분의 1 크기(6.0MB 대 90.2MB)인 MobileNetV3-Small을 채택, 서버에서 ONNX로 추론
+- 가진 옷으로만 추천하기 위해 LLM은 규칙으로 만든 후보 중에서만 고르고, 서버가 형식·옷 ID·후보 조합을 검증한 뒤 실패하면 보조 모델로 재요청 (실측 23회: 기본 모델 19회 통과 · 보조 모델 4회 · 최종 실패 0건)
+- 나중에 폰에서도 돌릴 수 있을 만큼 가벼운 분류 모델이 필요해 MobileNetV3-Small과 ResNet50 전이학습을 같은 조건으로 비교, 약 15분의 1 크기(6.0MB 대 90.2MB)인 MobileNetV3-Small을 채택해 지금은 서버 안에서 ONNX로 추론
 
 ## AI와 일하는 방식
 
@@ -89,8 +89,8 @@ Claude Code · Codex · Antigravity를 거의 매일, 역할을 나눠 씁니다
 ## 다른 프로젝트
 
 - **[EduMatrix](https://junyoung-portfolio.vercel.app/projects/edumatrix)**: 목표, 노트, 퀴즈, 피드백, 계획 조정을 잇는 AI 학습 지원 시스템의 구상과 설계 (4인 캡스톤, 1저자 논문 2편)
-- **[InnoView](https://junyoung-portfolio.vercel.app/projects/innoview)**: 이력서와 직무에 맞춰 질문하고 음성·텍스트·영상으로 답변을 분석하는 모의 면접 서비스
-- **[Label Light](https://junyoung-portfolio.vercel.app/projects/label-light)**: 일상 대화 속에서 노인 우울 척도(GDS) 문항을 끌어내는 음성 챗봇 (1저자 논문)
+- **[InnoView](https://junyoung-portfolio.vercel.app/projects/innoview)** · [코드](https://github.com/ERIC1889/InnoView): 이력서와 직무에 맞춰 질문하고 음성·텍스트·영상으로 답변을 분석하는 모의 면접 서비스 (기업·직무별 Assistant, 꼬리 질문은 서버에서 15문항 제한, 한신대 AI 면접 특강 2회에서 학생들이 사용)
+- **[Label Light](https://junyoung-portfolio.vercel.app/projects/label-light)**: 설문 대신 음성만으로 나누는 일상 대화 속에서 노인 우울 척도(GDS) 문항을 끌어내는 음성 챗봇 (1저자 논문)
 
 [전체 프로젝트 보기](https://junyoung-portfolio.vercel.app/archive#projects)
 
