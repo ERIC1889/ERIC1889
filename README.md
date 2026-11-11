@@ -6,9 +6,9 @@
 
 사용자의 요구를 기술적 해결책으로 구체화하고, 이를 실제 작동하는 서비스로 구현해 왔습니다. 프론트엔드부터 백엔드, AI 기능 적용까지 제품 개발의 여러 단계를 경험하며, 기능의 구현뿐 아니라 그 과정의 합리성과 결과의 완성도를 중요하게 생각합니다.
 
-주식회사 Finz Labs에 초기 창업 멤버로 함께해 회사 내 유일한 개발자로 세금 계산 서비스 [finz.kr](https://www.finz.kr)을 설계·개발·운영하고, 기획과 투자 제안, 모바일 앱 개발, 협력 개발사와의 공동 개발까지 개발 총괄로 일하고 있습니다. 지금까지 프로젝트 18개를 진행했고, 학술대회 논문 7편(국제 1편, 1저자 6편)을 썼으며, 13건을 수상했습니다.
+주식회사 Finz Labs에 초기 창업 멤버로 함께해 회사 내 유일한 개발자로 세금 계산 서비스 [finz.kr](https://www.finz.kr)을 설계·개발·운영하고, 기획과 투자 제안, 모바일 앱 개발, 협력 개발사와의 공동 개발까지 개발 총괄로 일하고 있습니다. 지금까지 프로젝트 17개를 진행했고, 학술대회 논문 7편(국제 1편, 1저자 6편)을 썼으며, 13건을 수상했습니다.
 
-<a href="https://junyoung-portfolio.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-18181B?style=flat-square" height="24" /></a> <a href="https://www.finz.kr"><img alt="finz.kr" src="https://img.shields.io/badge/finz.kr-18181B?style=flat-square" height="24" /></a> <a href="https://junyoung-dev-notes.vercel.app"><img alt="Tech Blog" src="https://img.shields.io/badge/Tech_Blog-18181B?style=flat-square" height="24" /></a>
+<a href="https://junyoung-portfolio.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-18181B?style=flat-square" height="24" /></a> <a href="https://www.finz.kr"><img alt="finz.kr" src="https://img.shields.io/badge/finz.kr-18181B?style=flat-square" height="24" /></a>
 
 ## 기술 스택
 
